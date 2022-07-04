@@ -1,17 +1,20 @@
+#include<stdlib.h>
 #include<stdio.h>
+
 /**
 	*	main	- the function main prints all alphabet
 	*
 	*
-	*	Return:	Always	0	(Success)
+	*	Return:	Always	0	(Sucees)
 	*/
 int	main(void)
-
 {
-	char	a;
+	int	n;
 
-	for (a = "a"; a <= "2" ; a++)
-		putchar(a);
-		putchar("\n");
-		return	(0);
+	for (n = 97; n <= 122; ++n)
+	{
+		putchar(n);
+	}
+	putchar('\n');
+	return	(0);
 }
