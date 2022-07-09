@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * more_numbers	- prints numbers to 14
- *
- * Return: returns nothing
- */
-void more_numbers(void)
+	*	prints_numbers	- prints numbers to 14
+	*
+	*	Return:	returns nothing
+	*/
+void more_numbers(void);
 {
 	int number1, number2;
 
