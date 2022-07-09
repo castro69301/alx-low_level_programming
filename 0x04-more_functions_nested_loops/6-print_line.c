@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
 	*	print_line - draws a straight line in the terminal
@@ -14,12 +14,12 @@ void print_line(int n)
 	{
 		for (i = 0; i < n; i++)
 		{
-			_putcher(95);
+			_putchar (95);
 		}
-		_putchar('\n');
+		_putchar ('\n');
 	}
 	else
 	{
-		_putcher('\n');
+		_putchar ('\n');
 	}
 }
